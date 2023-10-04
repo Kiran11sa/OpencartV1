@@ -1,0 +1,11 @@
+To execute grouping TC
+----------------------
+sanity: pytest -v -s .\testCases\ -m sanity
+regression : pytest -v -s .\testCases\ -m regression
+---------------------------------------------------------------------------------------------------------
+We need to check 4 things while adding new TC
+----------------------------------------------
+
+need to create required page object classes
+need to create TC make sure you Nees to common data from ini file
+need to get browser info from conftest.py need to refer multiple pageobject classes
